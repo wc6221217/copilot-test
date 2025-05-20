@@ -38,13 +38,13 @@ pip install -e .
 使用项目中配置的命令行脚本（通过 `pyproject.toml` 提供）：
 
 ```bash
-mcp-get-weather --port 3000
+mcp-get-weather --port 3000 --api-key YOUR_OPENWEATHER_API_KEY
 ```
 
 或者手动运行模块：
 
 ```bash
-python -m src.mcp_get_weather
+python -m src.mcp_get_weather --api-key YOUR_OPENWEATHER_API_KEY
 ```
 
 ---
