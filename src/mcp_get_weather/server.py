@@ -124,7 +124,7 @@ def main(port: int, api_key: str, log_level: str, json_response: bool) -> int:
 
         # Compose human-readable summary for the final return value.
         summary = (
-            f"{weather['city']}：{weather['descripton']}，温度 {weather['temp']}，"
+            f"{weather['city']}：{weather['description']}，温度 {weather['temp']}，"
             f"体感 {weather['feels_like']}，湿度 {weather['humidity']}。"
         )
 
